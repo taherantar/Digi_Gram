@@ -1,0 +1,23 @@
+.page-banner {
+
+    .row {
+        justify-content: space-between;
+        align-content: flex-start;
+    }
+
+    #banner p {
+        color: $dark;
+    }
+
+    #ply-watch {
+        background-color: $primary;
+        color: $light;
+        width: 180px;
+        border-radius: 50px;
+
+    }
+
+    img {
+        width: 100%;
+    }
+}

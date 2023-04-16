@@ -1,0 +1,260 @@
+@import './helpers/colors';
+@import './helpers/variables';
+@import './helpers/mixin';
+@import './components/navbar';
+@import './components/_news';
+@import './components/_banner';
+@import './components/_features';
+@import './components/_card';
+@import './helpers/global';
+@import './mixin';
+
+hatchpath
+
+#reat h5 {
+    color: $gray;
+}
+
+
+.btn-play {
+    width: 28px;
+    height: 28px;
+    background-color: $light;
+    border-radius: 28px;
+    color: $primary;
+    line-height: 28px;
+}
+
+
+
+.testi-image {
+    position: relative;
+    display: block;
+    margin: 0 auto;
+    width: 300px;
+    height: 280px;
+    background-color: $primary;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.owl-carousel img {
+    display: block;
+    width: 100%;
+}
+
+.item-1 {
+    display: none;
+}
+
+.page-section {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background-color: $light;
+    overflow: hidden;
+}
+
+.contact-list li {
+    list-style-type: none;
+
+    .fa-solid {
+        @include border-radius(50px);
+        border: 1px solid $gray;
+        width: 50px;
+        height: 50px;
+        text-align: center;
+        line-height: 50px;
+        margin-right: 20px;
+        margin-bottom: 10px;
+    }
+
+}
+
+#btnSend {
+    background-color: $primary;
+    color: $light;
+}
+
+.subhead {
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: $gray;
+    font-weight: 500;
+    margin-bottom: 8px;
+}
+
+.card-blog-row *:first-child .card-blog {
+    background-color: $primary;
+}
+
+.card-blog-row *:first-child .card-blog .post-author,
+.card-blog-row *:first-child .card-blog .post-title a,
+.card-blog-row *:first-child .card-blog .footer a {
+    color: $light;
+}
+
+.card-blog {
+    position: relative;
+    display: block;
+    margin: 0 auto;
+    padding: 32px 20px 70px 20px;
+    max-width: 260px;
+    min-height: 270px;
+    border-radius: 6px;
+    box-shadow: 0 2px 6px rgba(100, 95, 136, 0.16);
+
+    .avatar {
+        position: relative;
+        display: inline-block;
+        margin-right: 6px;
+        width: 44px;
+        height: 44px;
+        border-radius: 50%;
+        background-color: $light;
+        overflow: hidden;
+    }
+
+    .avatar img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .header {
+        margin-bottom: 16px;
+    }
+
+    .post-author {
+        font-weight: 500;
+        color: $gray;
+    }
+
+    .post-date {
+        font-size: 13px;
+        color: $gray;
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    .post-title {
+        margin-bottom: 8px;
+        font-size: 18px;
+        width: 80%;
+
+        a {
+            font-weight: 500;
+            color: $black;
+        }
+    }
+
+    .footer {
+        position: absolute;
+        bottom: 20px;
+        left: 20px;
+
+        a {
+            color: $primary;
+        }
+    }
+
+    .post-excerpt {
+        font-size: 14px;
+        color: $gray;
+    }
+}
+
+#btnDisc {
+    color: $light;
+    border-color: $primary;
+
+}
+
+#btnDisc:hover {
+    color: $primary;
+    background-color: $light;
+}
+
+.client-section {
+    padding: 64px 0;
+    background-color: $light;
+
+    .item {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+.container-fluid {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.logoFooter {
+    color: $primary;
+}
+
+.page-footer {
+    padding-top: 80px;
+
+    h3,
+    h4,
+    h5 {
+        margin-bottom: 24px;
+        font-weight: 600;
+    }
+
+    .footer-menu {
+        padding: 0;
+    }
+}
+
+ul li {
+    list-style-type: none;
+    color: $gray;
+    margin-bottom: 10px;
+}
+
+.d-inline-block {
+    color: $primary;
+}
+
+.back-to-top {
+    offset: 50px;
+    position: fixed;
+    bottom: 20px;
+    right: 25px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: rgba(224, 223, 233, 0.7);
+    cursor: pointer;
+    transition: all .2s ease;
+    z-index: 1100;
+}
+
+.back-to-top::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    margin: -4px auto;
+    width: 12px;
+    height: 12px;
+    border-top: 2px solid #555;
+    border-right: 2px solid #555;
+
+    transform: rotate(-45deg);
+}
+
+.back-to-top:hover {
+    background: $primary;
+}
+
+.back-to-top:hover {
+    background: $primary;
+}

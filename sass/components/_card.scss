@@ -1,0 +1,117 @@
+// card ------------------------------
+.card-pricing {
+    position: relative;
+    display: block;
+    margin: 0 auto;
+    padding: 32px 20px;
+    max-width: 300px;
+    border: 1px solid $gray;
+    border-radius: 6px;
+    text-align: center;
+    overflow: hidden;
+
+    .price-tag {
+        font-weight: 900;
+    }
+
+    .display-4 {
+        font-size: calc(1.475rem + 2.7vw);
+        font-weight: 600;
+        line-height: 1.2;
+    }
+
+    .price-title {
+        color: $gray;
+        font-size: 20px;
+        text-transform: uppercase;
+
+    }
+
+    .btn {
+        color: $secondary;
+    }
+
+    .price-info p {
+        color: $gray;
+        font-weight: 700;
+    }
+
+
+    .header {
+        color: $gray;
+    }
+
+    h2 {
+        display: inline-block;
+    }
+
+    .currency {
+        display: inline-block;
+    }
+
+    p {
+        color: $light;
+    }
+
+    .btn {
+        border: 1px solid $gray;
+        border-radius: 6px;
+    }
+}
+
+.card-pricing.active {
+    background-color: $primary;
+    border-color: $primary;
+
+    .price-tag {
+        color: $light;
+    }
+
+    .header {
+        color: $light;
+    }
+
+    .price-title {
+        color: $warning;
+        text-transform: uppercase;
+
+    }
+
+    .btn-outline {
+        color: $light;
+    }
+
+    p {
+        color: $light;
+    }
+}
+
+
+.card-pricing .price-labled {
+    position: absolute;
+    top: 16px;
+    right: -30px;
+    width: 120px;
+    height: 26px;
+    line-height: 26px;
+    background-color: $info;
+    color: $light;
+    transform: rotate(45deg);
+
+    .price-title {
+        text-transform: uppercase;
+        letter-spacing: 3px;
+        font-size: 20px;
+        text-transform: uppercase;
+
+    }
+
+}
+
+// Icon pricing
+
+.fa-user-group,
+.fa-building,
+.fa-rocket {
+    font-size: 60px;
+}

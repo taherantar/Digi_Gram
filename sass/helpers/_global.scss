@@ -1,0 +1,40 @@
+.page_header {
+    height: 300px;
+    text-align: center;
+    color: $gray;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+
+.btn {
+    border: $border $gray;
+    font-weight: $font-weight;
+    color: $light;
+    background-color: $primary;
+}
+
+.btn-outline {
+    color: $gray;
+    background-color: $light;
+
+    a:hover {
+        background-color: $primary;
+    }
+}
+
+.divider {
+    display: block;
+    margin-top: 16px;
+    margin-bottom: 32px;
+    width: 32px;
+    height: 3px;
+    border-radius: 40px;
+    background-color: $primary;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    -ms-border-radius: 40px;
+    -o-border-radius: 40px;
+}

@@ -1,0 +1,42 @@
+.features {
+
+    border-top: 1px solid $gray;
+    border-bottom: 1px solid $gray;
+}
+
+.features .page-section {
+    p {
+        color: $dark;
+    }
+
+    h5 {
+        color: $dark;
+    }
+
+    .marked {
+        color: $primary;
+    }
+
+    .col-lg-4 {
+        border: $border $light;
+        height: 200PX;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+
+    h2:first-child {
+        width: 70%;
+    }
+
+    .sub-head {
+        text-transform: uppercase;
+        color: $gray;
+    }
+
+    .img-place img {
+        width: 100%;
+    }
+}

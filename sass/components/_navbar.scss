@@ -1,0 +1,58 @@
+.navbar-expand-lg .navbar-collapse {
+    display: flex;
+    flex-basis: auto;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.navbar {
+    .logo {
+        color: $primary;
+    }
+
+    .navbar-brand {
+        font-weight: $font-weight ;
+    }
+
+    .nav-link:hover {
+        color: $primary;
+    }
+
+    .btn-outline:hover {
+        color: $light;
+        background-color: $primary;
+    }
+
+    .shadow-sm {
+        width: 98%;
+        margin-top: 20px;
+    }
+
+    #active {
+        color: $primary;
+    }
+    
+}
+
+
+@media (min-width: 650px) and (max-width: 1250px) {
+    .navbar-toggler {
+        display: none;
+    }
+
+
+    #navbarContent {
+        display: inline;
+    }
+}
+
+@media (min-width: 350px) and (max-width: 995px) {
+
+    .navbar .container {
+        display: flex;
+        flex-wrap: inherit;
+        align-items: flex-start;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+}
