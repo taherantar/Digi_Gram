@@ -505,3 +505,7 @@ ul li {
 .back-to-top:hover {
   background: #6C55F9;
 }
+
+.home-banner .more {
+  width: 300px;
+}
