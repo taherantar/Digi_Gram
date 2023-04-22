@@ -18,6 +18,9 @@
 .navbar #active {
   color: #6C55F9;
 }
+.navbar .btn {
+  padding: 8px 30px;
+}
 
 #sliderPhoto .col-lg-4 {
   margin-bottom: 10%;
