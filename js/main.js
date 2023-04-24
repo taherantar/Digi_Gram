@@ -32,7 +32,7 @@ function showSlides(n) {
 }
 
 
-//Get the button
+//Get the button Back To Top
 let mybutton = document.getElementById("btn-back-to-top");
 
 // When the user scrolls down 20px from the top of the document, show the button
