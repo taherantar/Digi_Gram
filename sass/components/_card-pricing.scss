@@ -119,11 +119,11 @@
 .mymoveIn {
     position: relative;
     animation-name: mymoveIn;
-    animation-duration: 3s;
+    animation-duration: 5s;
   }
   
   @keyframes mymoveIn {
-    60% {
+    20% {
       transform: translateY(10%);
       opacity: 1;
     }
@@ -132,11 +132,11 @@
   .mymoveRight {
     position: relative;
     animation-name: mymoveRight;
-    animation-duration: 3s;
+    animation-duration: 5s;
   }
   
   @keyframes mymoveRight {
-    40% {
+    20% {
       transform: translateX(10%);
       opacity: 1;
     }
@@ -144,11 +144,11 @@
   .mymoveLeft {
     position: relative;
     animation-name: mymoveLeft;
-    animation-duration: 3s;
+    animation-duration: 5s;
   }
   
   @keyframes mymoveLeft {
-    10% {
+    20% {
       transform: translateX(-10%);
       opacity: 1;
     }
