@@ -177,6 +177,42 @@
   font-size: 60px;
 }
 
+.mymoveIn {
+  position: relative;
+  animation-name: mymoveIn;
+  animation-duration: 3s;
+}
+
+@keyframes mymoveIn {
+  60% {
+    transform: translateY(10%);
+    opacity: 1;
+  }
+}
+.mymoveRight {
+  position: relative;
+  animation-name: mymoveRight;
+  animation-duration: 3s;
+}
+
+@keyframes mymoveRight {
+  40% {
+    transform: translateX(10%);
+    opacity: 1;
+  }
+}
+.mymoveLeft {
+  position: relative;
+  animation-name: mymoveLeft;
+  animation-duration: 3s;
+}
+
+@keyframes mymoveLeft {
+  10% {
+    transform: translateX(-10%);
+    opacity: 1;
+  }
+}
 #btn-back-to-top {
   position: fixed;
   bottom: 20px;
