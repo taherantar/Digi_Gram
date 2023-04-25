@@ -123,6 +123,7 @@
 }
 .card-pricing .currency {
   display: inline-block;
+  transform: translateY(-30px);
 }
 .card-pricing p {
   color: #fff;
@@ -218,6 +219,32 @@
   bottom: 20px;
   right: 20px;
   display: none;
+}
+
+.client-section {
+  padding: 64px 0;
+  background-color: #fff;
+}
+.client-section .item {
+  display: flex;
+  justify-content: center;
+}
+
+@keyframes zoomIn {
+  0% {
+    transform: scale(1, 1);
+  }
+  50% {
+    transform: scale(1.2, 1.2);
+  }
+  100% {
+    transform: scale(1, 1);
+  }
+}
+.zoomIn {
+  position: relative;
+  animation-name: zoomIn;
+  animation-duration: 3s;
 }
 
 .page_header {
@@ -471,23 +498,6 @@
 #btnDisc:hover {
   color: #6C55F9;
   background-color: #fff;
-}
-
-.client-section {
-  padding: 64px 0;
-  background-color: #fff;
-}
-.client-section .item {
-  display: flex;
-  justify-content: center;
-}
-
-.container {
-  width: 100%;
-  padding-right: 15px;
-  padding-left: 15px;
-  margin-right: auto;
-  margin-left: auto;
 }
 
 .logoFooter {

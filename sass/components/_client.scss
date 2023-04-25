@@ -1,0 +1,28 @@
+.client-section {
+    padding: 64px 0;
+    background-color: $light;
+
+    .item {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+
+@keyframes zoomIn{
+    0% {
+      transform: scale(1, 1);
+    }
+    50% {
+      transform: scale(1.2, 1.2);
+    }
+    100% {
+      transform: scale(1, 1);
+    }
+  }
+  
+  .zoomIn {
+    position: relative;
+    animation-name: zoomIn;
+    animation-duration: 3s;
+  }

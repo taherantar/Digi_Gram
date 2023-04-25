@@ -7,6 +7,7 @@
 @import './components/_features';
 @import './components/_card-pricing';
 @import './components/back_to_top';
+@import './components/client';
 @import './helpers/global';
 @import './mixin';
 @import './slider';
@@ -172,24 +173,6 @@
 #btnDisc:hover {
     color: $primary;
     background-color: $light;
-}
-
-.client-section {
-    padding: 64px 0;
-    background-color: $light;
-
-    .item {
-        display: flex;
-        justify-content: center;
-    }
-}
-
-.container {
-    width: 100%;
-    padding-right: 15px;
-    padding-left: 15px;
-    margin-right: auto;
-    margin-left: auto;
 }
 
 .logoFooter {
